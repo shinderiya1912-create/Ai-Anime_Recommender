@@ -1,3 +1,40 @@
 2026-02-18 14:01:36,751 - INFO - Initializing Recommendation Pipeline
 2026-02-18 14:01:36,759 - INFO - Use pytorch device_name: cpu
 2026-02-18 14:01:36,759 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-18 14:01:39,667 - ERROR - Failed to initialize pipeline: sentence-transformers/all-MiniLM-L6-v2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+2026-02-18 14:05:29,614 - INFO - Initializing Recommendation Pipeline
+2026-02-18 14:05:29,621 - INFO - Use pytorch device_name: cpu
+2026-02-18 14:05:29,621 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-18 14:05:32,648 - ERROR - Failed to initialize pipeline: sentence-transformers/all-MiniLM-L6-v2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+2026-02-18 14:31:36,166 - INFO - Initializing Recommendation Pipeline
+2026-02-18 14:31:36,176 - INFO - Use pytorch device_name: cpu
+2026-02-18 14:31:36,176 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-18 14:31:38,982 - ERROR - Failed to initialize pipeline: sentence-transformers/all-MiniLM-L6-v2 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+2026-02-18 14:33:54,103 - INFO - Initializing Recommendation Pipeline
+2026-02-18 14:33:54,110 - INFO - Use pytorch device_name: cpu
+2026-02-18 14:33:54,111 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-18 14:34:01,422 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-18 14:34:04,771 - INFO - Pipeline initialized successfully
+2026-02-18 14:35:12,110 - INFO - Received query: thriller 
+2026-02-18 14:35:12,255 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-18 14:35:12,257 - ERROR - Recommendation failed: LLM recommendation failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-02-18 14:35:35,926 - INFO - Received query: adventure
+2026-02-18 14:35:35,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-18 14:35:35,997 - ERROR - Recommendation failed: LLM recommendation failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-02-18 14:36:01,081 - INFO - Received query: can you suggest something similar to naruto
+2026-02-18 14:36:01,162 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-18 14:36:01,164 - ERROR - Recommendation failed: LLM recommendation failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-02-18 14:38:36,108 - INFO - Received query: dark fantasy
+2026-02-18 14:38:36,223 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-02-18 14:38:36,224 - ERROR - Recommendation failed: LLM recommendation failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-02-18 14:39:38,938 - INFO - Initializing Recommendation Pipeline
+2026-02-18 14:39:38,948 - INFO - Use pytorch device_name: cpu
+2026-02-18 14:39:38,948 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-18 14:39:44,573 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-18 14:39:47,632 - INFO - Pipeline initialized successfully
+2026-02-18 14:40:06,516 - INFO - Received query: fantasy
+2026-02-18 14:40:07,610 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-18 14:40:10,271 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
